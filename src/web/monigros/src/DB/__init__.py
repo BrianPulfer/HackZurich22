@@ -1,1 +1,1 @@
-from DB.functionalities_db import DataBase
+from web.monigros.src.DB.functionalities_db import DataBase

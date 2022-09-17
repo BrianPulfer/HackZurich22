@@ -1,4 +1,4 @@
-from DB import DataBase
+from web.monigros.src.DB import DataBase
 from data_analyzer import analyze_website
 
 import argparse

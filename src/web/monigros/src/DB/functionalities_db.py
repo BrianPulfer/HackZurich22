@@ -2,7 +2,7 @@ import pandas as pd
 import json 
 
 # DB constans
-conf_file = "DB/DB_files/conf.json"
+conf_file = "web/monigros/src/DB/DB_files/conf.json"
 tables_conf_file = "Tables"
 table_name_conf = "Name_table"
 primary_key_conf = "Primary_key"

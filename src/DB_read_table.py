@@ -1,4 +1,4 @@
-from DB import DataBase
+from web.monigros.src.DB import DataBase
 
 import argparse
 
