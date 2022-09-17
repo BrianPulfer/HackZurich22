@@ -333,5 +333,76 @@
         },
         "Country": "sweden",
         "process_ID": "Process_5"
+    },
+    {
+        "url": "https://en.wikipedia.org/wiki/2022_Pakistan_economic_crisis",
+        "resume": " The 2022 Pakistan economic crisis is an ongoing economic crisis that has caused severe economic challenges for months due to which food, gas and oil prices have risen . Pakistan's economic crisis was at the centre of a political standoff between Prime Minister  Shahbaz Sharif and his predecessor Imran Khan earlier this year . A loan of $2.3 billion from a Chinese consortium of banks had been credited to the Pakistani central bank's account in late June .",
+        "labels": [
+            [
+                "crisis",
+                0.6213021278
+            ],
+            [
+                "disruption",
+                0.281986177
+            ],
+            [
+                "world",
+                0.0259126052
+            ],
+            [
+                "politics",
+                0.0218831468
+            ],
+            [
+                "business",
+                0.0110921348
+            ],
+            [
+                "technology",
+                0.0101423953
+            ],
+            [
+                "entertainment",
+                0.01001136
+            ],
+            [
+                "science",
+                0.0063889623
+            ],
+            [
+                "health",
+                0.0044502341
+            ],
+            [
+                "weather",
+                0.0034353221
+            ],
+            [
+                "sports",
+                0.0033954561
+            ]
+        ],
+        "word_count": {
+            "key words": {
+                "political": 1,
+                "raise": 1,
+                "food": 1,
+                "": 1
+            },
+            "continents": {
+                "Asia": 1,
+                "Australia": 1
+            },
+            "countries": {
+                "Australia": 1,
+                "Bangladesh": 1,
+                "India": 1,
+                "Pakistan": 1,
+                "Ukraine": 1
+            }
+        },
+        "Country": "pakistan",
+        "process_ID": "Process_6"
     }
 ]

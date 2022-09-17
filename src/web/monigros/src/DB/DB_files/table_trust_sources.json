@@ -33,5 +33,12 @@
         "url": "https://en.wikipedia.org/wiki/2022_Swedish_general_election",
         "translation": null,
         "Country": "sweden"
+    },
+    {
+        "url_ID": "URL_6",
+        "type_document": "html",
+        "url": "https://en.wikipedia.org/wiki/2022_Pakistan_economic_crisis",
+        "translation": null,
+        "Country": "pakistan"
     }
 ]

@@ -41,7 +41,6 @@ class WorldMap extends Component {
     })};
 
   readJson(){
-    console.log(DBPath.length)
     for (let i = 0; i < DBPath.length; i++) {
           this.addInfo(
             DBPath[i]["Country"],
@@ -51,7 +50,6 @@ class WorldMap extends Component {
             DBPath[i]["labels"][0][0]
           )
     }
-    console.log(this.state)
   }
 
   componentDidMount() {
@@ -91,10 +89,10 @@ class WorldMap extends Component {
             </Popup>
           </Marker>
           );
-        
+
         line_coords.push([
-          [pos[1], pos[0]],
-          [COUNTRIES["switzerland"][1], COUNTRIES["switzerland"][0]]
+          [COUNTRIES["switzerland"][1], COUNTRIES["switzerland"][0]],
+          [pos[1], pos[0]]
         ]);
       } else {
         markers.push(

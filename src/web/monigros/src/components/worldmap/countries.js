@@ -92,6 +92,7 @@ const COUNTRIES = {
     "turkey": [38.963745, 35.243322],
     "ukraine": [48.379433, 31.16558],
     "belarus": [53.709807, 27.953389],
+    "pakistan": [30.375321, 69.345116],
 }
 
 export default COUNTRIES;
