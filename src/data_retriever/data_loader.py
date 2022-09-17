@@ -1,5 +1,4 @@
 
-from bs4.element import Comment
 from bs4 import BeautifulSoup
 from datetime import datetime
 import xmltodict, json 
@@ -7,34 +6,9 @@ import requests
 
 # Auxiliar functions
 
-unwanted_things = ["style", "script", 'head', "title", "meta", "[document]"]
+from data_retriever.text_processing import remove_unwanted, filter_unwanted_stuff, dict2string
+
 STATUS_OK = 200
-
-def remove_unwanted(element):
-    # Function from:
-    # https://stackoverflow.com/questions/1936466/how-to-scrape-only-visible-webpage-text-with-beautifulsoup
-    if element.parent.name in unwanted_things:
-        return False
-    if isinstance(element, Comment):
-        return False
-    return True
-
-
-def dict2string(string, dictionary):
-
-    if not isinstance(dictionary, dict) and not isinstance(dictionary, list):
-        return f"{string}\n. {str(dictionary)}" 
-
-    if isinstance(dictionary, dict):
-        for k in dictionary.keys():
-            if k != "link":
-                string = dict2string(string, dictionary[k])
-
-    if isinstance(dictionary, list):
-        for k in dictionary:
-            string = dict2string(string, k)
-
-    return string
 
 #  Data structure
 
@@ -110,7 +84,3 @@ def donwload_xml(url, handler=XMLHandler, **kwargs):
     if respond.status_code == STATUS_OK:
         return handler(respond.text, url, **kwargs)
     raise Exception(f"Status respond {respond.status_code}")
-
-
-print(donwload_xml("https://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/rss/CAP_AFAE_wah_RSS.xml")().text)
-#print(donwload_xml("https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml")().text)

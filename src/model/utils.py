@@ -1,5 +1,5 @@
 # Classes for news classificaiton
-NEWS_CLASSES = ["world", "politics", "business", "sports", "technology", "entertainment", "health", "science"]
+NEWS_CLASSES = ["world", "politics", "business", "sports", "technology", "entertainment", "health", "science", "weather", "crisis", "disruption"]
 
 # Keywords for traditonal 
 KEY_WORDS = ["shortage", "supply", "goods", "political", "raise", "food", "war", "heat wave", "hearthquake", "pirat", "lockdown", "typhoon", "flood", "border", ""]
