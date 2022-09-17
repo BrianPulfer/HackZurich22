@@ -33,6 +33,7 @@ To get the url_id of a specific trust url, you can execute
 ```
 
 ## Data processing
+Example of how our system is able to collect and process information with the use of AI.
 
 ### Initial data
 Fragment of the downloaded data before analyzing. (Original data came from: https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml)
