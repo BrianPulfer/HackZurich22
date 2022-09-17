@@ -1,8 +1,14 @@
+// Uses the Leaflet library to display a map of the world
+// https://react-leaflet.js.org/
+
 import React, { Component }  from 'react';
 import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 
-const switzerland = [46.8182, 8.2275];
-const mapstyle = { "height": "1080px"};
+import COUNTRIES from "./countries";
+
+const mapstyle = { 
+  "height":  window.innerHeight + "px"
+};
 
 class WorldMap extends Component {
   constructor(props) {
@@ -10,9 +16,9 @@ class WorldMap extends Component {
     this.state = {
       infos: [
         {
-          "position": switzerland,
+          "position": COUNTRIES["switzerland"],
           "info": "This is where products are shipped"
-        }
+        },
     ]};
   }
 
@@ -23,7 +29,7 @@ class WorldMap extends Component {
       const info = this.state.infos[i].info;
 
       markers.push(
-      <Marker position={pos}>
+      <Marker position={pos} key={pos}>
         <Popup>
           {info}
         </Popup>
@@ -32,7 +38,7 @@ class WorldMap extends Component {
     }
 
     return (
-      <MapContainer className='mapcontainer' center={switzerland} zoom={4} scrollWheelZoom={true} style={mapstyle}>
+      <MapContainer className='mapcontainer' center={COUNTRIES["switzerland"]} zoom={4} scrollWheelZoom={true} style={mapstyle}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
