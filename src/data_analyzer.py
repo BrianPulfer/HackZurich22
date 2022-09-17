@@ -68,9 +68,11 @@ def analyze_website(url, format="xml", chunks_size=1024, translation=None):
     summarization = data_summarization(data_chunks, chunks_size=chunks_size)
     print("Resume:", summarization)
 
+    """
     cprint("Grammar correction", "magenta", "on_grey")
     summarization = data_correction(summarization)
     print("Text corrected:",summarization )
+    """
 
     cprint("Classification", "magenta", "on_grey")
     output = classify(summarization)
