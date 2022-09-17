@@ -4,7 +4,7 @@ Repository for the HackZürich 2022 edition (September 16 - 18, 2022).
 
 ## Description
 
-## Start webpage
+### Start webpage
 - To execute the server and interact with the map, execute in the web folder:
 ``` bash 
   npm start 
