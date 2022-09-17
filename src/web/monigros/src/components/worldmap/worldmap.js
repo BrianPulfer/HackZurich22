@@ -23,18 +23,20 @@ class WorldMap extends Component {
         },
         {
           "position": COUNTRIES["germany"],
-          "info": "Shortage of beer in vision of the oktoberfest coming-up soon"
+          "info": "Shortage of beer in vision of the oktoberfest coming-up soon",
+          "url": "https://www.nau.ch/news/europa/besucher-sturmen-trotz-inflation-und-energiekrise-aufs-oktoberfest-66279532"
         },
     ]};
 
     this.addInfo = this.addInfo.bind(this);
   }
 
-  addInfo(country, info) {
+  addInfo(country, info, url) {
     this.setState({
       infos: this.state.infos.concat({
         "position": COUNTRIES[country],
-        "info": info
+        "info": info,
+        "url": url
       })
     });
   }
@@ -52,12 +54,15 @@ class WorldMap extends Component {
     for (let i = 0; i < this.state.infos.length; i++) {
       const pos = this.state.infos[i].position;
       const info = this.state.infos[i].info;
+      const url = this.state.infos[i].url;
 
       if (i > 0) {
         markers.push(
           <Marker position={pos} key={pos} icon={disruption_marker} >
             <Popup>
-              {info}
+            <b>"WARNING:"</b> {info}
+            <br/><br/>
+            <a href={url}>source</a>
             </Popup>
           </Marker>
           );
