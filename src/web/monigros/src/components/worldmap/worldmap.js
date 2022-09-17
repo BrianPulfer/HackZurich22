@@ -28,12 +28,13 @@ class WorldMap extends Component {
     this.readJson = this.readJson.bind(this);
   }
 
-  addInfo(country, info, url, id) {
+  addInfo(country, info, url, id, kind) {
     let infonew = this.state.infos
     infonew[id] = {
       "position": COUNTRIES[country],
       "info": info,
       "url": url,
+      "kind": kind
     }
     this.setState({
       infos: infonew
@@ -46,7 +47,8 @@ class WorldMap extends Component {
             DBPath[i]["Country"],
             DBPath[i]["resume"],
             DBPath[i]["url"],
-            DBPath[i]["process_ID"]
+            DBPath[i]["process_ID"],
+            DBPath[i]["labels"][0][0]
           )
     }
     console.log(this.state)
@@ -72,16 +74,18 @@ class WorldMap extends Component {
     //for (let i = 0; i < this.state.infos.length; i++) {
     let i = 0;
     for (var key in this.state.infos) {
-      console.log(key)
+      
       const pos = this.state.infos[key].position;
       const info = this.state.infos[key].info;
       const url = this.state.infos[key].url;
-      console.log(this.state.infos)
+      const kind = this.state.infos[key].kind;
+      
       if (i > 0) {
         markers.push(
           <Marker position={pos} key={pos} icon={disruption_marker} >
             <Popup>
-            <b>"WARNING:"</b> {info}
+            <b>"WARNING:"</b> <i>{kind}</i> <br/>
+            {info}
             <br/><br/>
             <a href={url}>source</a>
             </Popup>
