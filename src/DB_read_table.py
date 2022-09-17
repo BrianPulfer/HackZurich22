@@ -1,4 +1,4 @@
-from src.DB import DataBase
+from DB import DataBase
 
 import argparse
 

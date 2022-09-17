@@ -1,12 +1,12 @@
 {
     "Tables": {
         "Trust_sources": {
-            "Name_table": "src/DB/DB_files/table_trust_sources.json",
+            "Name_table": "DB/DB_files/table_trust_sources.json",
             "Primary_key": "url_ID",
             "Prefix_id": "URL_"
         },
         "Process_url": {
-            "Name_table": "src/DB/DB_files/table_process_url.json",
+            "Name_table": "DB/DB_files/table_process_url.json",
             "Primary_key": "process_ID",
             "Prefix_id": "Process_"
         }

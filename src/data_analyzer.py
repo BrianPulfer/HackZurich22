@@ -1,6 +1,6 @@
-from src.data_retriever import process_webpage, join_chunks_in_strings, split_string_chunks
-from src.model.model import summarize, classify, grammar, translations
-from src.model.utils import find_keyword, KEY_WORDS, WORLD_CONTINENTS, WORLD_COUNTRIES
+from data_retriever import process_webpage, join_chunks_in_strings, split_string_chunks
+from model.model import summarize, classify, grammar, translations
+from model.utils import find_keyword, KEY_WORDS, WORLD_CONTINENTS, WORLD_COUNTRIES
 
 from termcolor import cprint
 from tqdm import tqdm

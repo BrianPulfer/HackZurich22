@@ -1,4 +1,4 @@
-from src.model.utils import NEWS_CLASSES
+from model.utils import NEWS_CLASSES
 
 from transformers import pipeline
 from happytransformer import HappyTextToText, TTSettings

@@ -1,1 +1,1 @@
-from src.DB.functionalities_db import DataBase
+from DB.functionalities_db import DataBase
