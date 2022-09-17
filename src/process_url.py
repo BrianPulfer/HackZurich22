@@ -23,6 +23,7 @@ row = {
     "resume": document.resume,
     "labels":document.labels,
     "word_count":document.word_count,
+    "Country": url_row["Country"]
 }
 
 DataBase.insert_row("Process_url", row)
