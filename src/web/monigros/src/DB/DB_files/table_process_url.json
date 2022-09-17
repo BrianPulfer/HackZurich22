@@ -1,51 +1,51 @@
 [
     {
         "url": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-netherlands",
-        "resume": "The Netherlands is experiencing a moderate wind warning. The Netherlands en Espaa. The Netherlands en Espaa. The European Union has issued the following weather warnings. The National Weather Service has issued two of the above-the-air warnings. Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - The Netherlands has issued a yellow Wind Warning.",
+        "resume": " Meteoalarm.org has issued severe weather warnings for Europe . The Netherlands has issued a Yellow Flooding Warning for The Netherlands . The weather warning is likely to be Moderate or Moderate with a moderate wind warning . The National Weather Service has issued yellow wind warnings for the Netherlands .",
         "labels": [
             [
                 "weather",
-                0.7671937346
-            ],
-            [
-                "disruption",
-                0.0707289502
+                0.3177148998
             ],
             [
                 "world",
-                0.0509494841
+                0.2034914941
             ],
             [
-                "technology",
-                0.0358602367
-            ],
-            [
-                "science",
-                0.0198382866
+                "disruption",
+                0.1667547077
             ],
             [
                 "crisis",
-                0.0162636507
+                0.0935360491
             ],
             [
-                "entertainment",
-                0.0122386636
-            ],
-            [
-                "business",
-                0.0113803037
+                "technology",
+                0.0678454787
             ],
             [
                 "health",
-                0.0073207747
+                0.0596602708
             ],
             [
-                "politics",
-                0.0041707996
+                "science",
+                0.0478455462
+            ],
+            [
+                "entertainment",
+                0.0173773933
             ],
             [
                 "sports",
-                0.0040551042
+                0.0100492435
+            ],
+            [
+                "business",
+                0.0096289618
+            ],
+            [
+                "politics",
+                0.0060959733
             ]
         ],
         "word_count": {
@@ -65,51 +65,51 @@
     },
     {
         "url": "https://caps.weathersa.co.za/Home/RssFeed",
-        "resume": "Disruptive rain is expected to result in localised flooding of susceptible settlements (formal/informal), roads, low-lying areas and bridges. Mudslides and rock falls are possible. Mudslides and rock falls are possible. Localised damage to mud-based and make-shift houses or structures is possible.",
+        "resume": " Public and small stock farmers should be advised that loss of vulnerable livestock and crops can be expected due to combination of very cold, windy and wet conditions . Veld Fire Conditions are such that the FDI index is above 75 . Under these conditions fires may develop and spread rapidly resulting in damage to property and possible loss of human and/or animal life .",
         "labels": [
             [
                 "disruption",
-                0.584884882
+                0.5246018767
             ],
             [
                 "weather",
-                0.3057267368
-            ],
-            [
-                "world",
-                0.030281838
+                0.2408346087
             ],
             [
                 "crisis",
-                0.0277700294
+                0.0648048595
             ],
             [
-                "health",
-                0.0146827772
+                "world",
+                0.0511815846
             ],
             [
                 "science",
-                0.0096336482
+                0.0301961228
             ],
             [
-                "entertainment",
-                0.0072580166
+                "health",
+                0.0298892669
             ],
             [
                 "business",
-                0.0070849536
+                0.0171352308
+            ],
+            [
+                "entertainment",
+                0.0123813115
             ],
             [
                 "technology",
-                0.0063960478
-            ],
-            [
-                "sports",
-                0.0038341545
+                0.0110110315
             ],
             [
                 "politics",
-                0.0024469194
+                0.0093737748
+            ],
+            [
+                "sports",
+                0.0085903015
             ]
         ],
         "word_count": {
