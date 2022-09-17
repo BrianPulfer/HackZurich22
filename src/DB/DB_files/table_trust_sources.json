@@ -1,0 +1,32 @@
+[
+    {
+        "url_ID": "URL_1",
+        "type_document": "xml",
+        "url": "https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml",
+        "translation": "ger_en"
+    },
+    {
+        "url_ID": "URL_2",
+        "type_document": "xml",
+        "url": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-netherlands",
+        "translation": null
+    },
+    {
+        "url_ID": "URL_3",
+        "type_document": "xml",
+        "url": "https://caps.weathersa.co.za/Home/RssFeed",
+        "translation": null
+    },
+    {
+        "url_ID": "URL_4",
+        "type_document": "html",
+        "url": "https://www.euronews.com/my-europe/2022/09/16/medical-care-flights-funerals-how-will-queen-elizabeth-iis-funeral-impact-the-uk",
+        "translation": null
+    },
+    {
+        "url_ID": "URL_5",
+        "type_document": "html",
+        "url": "https://en.wikipedia.org/wiki/2022_Swedish_general_election",
+        "translation": null
+    }
+]
