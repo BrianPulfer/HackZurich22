@@ -7,6 +7,7 @@ import { DivIcon } from 'leaflet';
 
 import COUNTRIES from "./countries";
 import disruption from "./disruption.png";
+import DBPath from './../../DB/DB_files/table_process_url.json';
 
 const mapstyle = { 
   "height":  window.innerHeight + "px"
@@ -16,29 +17,46 @@ class WorldMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      infos: [
-        {
+      infos: {
+        "Original": {
           "position": COUNTRIES["switzerland"],
           "info": "This is where products are shipped"
         },
-        {
-          "position": COUNTRIES["germany"],
-          "info": "Shortage of beer in vision of the oktoberfest coming-up soon",
-          "url": "https://www.nau.ch/news/europa/besucher-sturmen-trotz-inflation-und-energiekrise-aufs-oktoberfest-66279532"
-        },
-    ]};
+    }};
 
     this.addInfo = this.addInfo.bind(this);
+    this.readJson = this.readJson.bind(this);
   }
 
-  addInfo(country, info, url) {
+  addInfo(country, info, url, id) {
+    let infonew = this.state.infos
+    infonew[id] = {
+      "position": COUNTRIES[country],
+      "info": info,
+      "url": url,
+    }
     this.setState({
-      infos: this.state.infos.concat({
-        "position": COUNTRIES[country],
-        "info": info,
-        "url": url
-      })
-    });
+      infos: infonew
+    })};
+
+  readJson(){
+    console.log(DBPath.length)
+    for (let i = 0; i < DBPath.length; i++) {
+          this.addInfo(
+            DBPath[i]["Country"],
+            DBPath[i]["resume"],
+            DBPath[i]["url"],
+            DBPath[i]["process_ID"]
+          )
+    }
+    console.log(this.state)
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => this.readJson(), 1000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
 
   render() {
@@ -48,14 +66,17 @@ class WorldMap extends Component {
       iconSize: [20, 20],
       iconAnchor: [10, 10]
     });
-
+    
     let markers = [];
     let line_coords = [];
-    for (let i = 0; i < this.state.infos.length; i++) {
-      const pos = this.state.infos[i].position;
-      const info = this.state.infos[i].info;
-      const url = this.state.infos[i].url;
-
+    //for (let i = 0; i < this.state.infos.length; i++) {
+    let i = 0;
+    for (var key in this.state.infos) {
+      console.log(key)
+      const pos = this.state.infos[key].position;
+      const info = this.state.infos[key].info;
+      const url = this.state.infos[key].url;
+      console.log(this.state.infos)
       if (i > 0) {
         markers.push(
           <Marker position={pos} key={pos} icon={disruption_marker} >
@@ -66,7 +87,7 @@ class WorldMap extends Component {
             </Popup>
           </Marker>
           );
-
+        
         line_coords.push([
           [pos[1], pos[0]],
           [COUNTRIES["switzerland"][1], COUNTRIES["switzerland"][0]]
@@ -80,6 +101,7 @@ class WorldMap extends Component {
           </Marker>
           );
       }
+      i++;
     }
 
     const lines_data = {

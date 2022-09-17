@@ -60,6 +60,7 @@
                 "Netherlands": 1
             }
         },
+        "Country": "netherlands",
         "process_ID": "Process_1"
     },
     {
@@ -123,6 +124,7 @@
                 "South Africa": 1
             }
         },
+        "Country": "south africa",
         "process_ID": "Process_2"
     },
     {
@@ -182,11 +184,12 @@
             "continents": {},
             "countries": {}
         },
+        "Country": "germany",
         "process_ID": "Process_3"
     },
     {
         "url": "https://www.euronews.com/my-europe/2022/09/16/medical-care-flights-funerals-how-will-queen-elizabeth-iis-funeral-impact-the-uk",
-        "resume": "19 September is a public holiday for the Queen's funeral. Heathrow airport in London has announced that 15% of its schedule will be delayed or diverted. IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: IA: I Travel Guide to Africa's most populous countries. iCaribao is the first African African country to explore Africa's diversity of cultures. New Uzbekistan and Dubai are the first countries to feature in a new series of gaming games.",
+        "resume": " 19 September is a public holiday for the Queen's funeral . Heathrow airport in London has announced that 15% of its schedule will be delayed or diverted . iA.C.A. is a travel guide to Africa's most populous countries . iCaribao is the first African African country to explore Africa's diversity of cultures . New Uzbekistan and Dubai are the first countries to feature in a new series of gaming games .",
         "labels": [
             [
                 "disruption",
@@ -255,6 +258,7 @@
                 "Uzbekistan": 1
             }
         },
+        "Country": "united kingdom",
         "process_ID": "Process_4"
     },
     {
@@ -327,79 +331,7 @@
                 "Ukraine": 1
             }
         },
+        "Country": "sweden",
         "process_ID": "Process_5"
-    },
-    {
-        "url": "https://www.euronews.com/my-europe/2022/09/16/medical-care-flights-funerals-how-will-queen-elizabeth-iis-funeral-impact-the-uk",
-        "resume": " 19 September is a public holiday for the Queen's funeral . Heathrow airport in London has announced that 15% of its schedule will be delayed or diverted . iA.C.A. is a travel guide to Africa's most populous countries . iCaribao is the first African African country to explore Africa's diversity of cultures . New Uzbekistan and Dubai are the first countries to feature in a new series of gaming games .",
-        "labels": [
-            [
-                "disruption",
-                0.5253944397
-            ],
-            [
-                "entertainment",
-                0.2865983248
-            ],
-            [
-                "technology",
-                0.0694115385
-            ],
-            [
-                "world",
-                0.0595130585
-            ],
-            [
-                "crisis",
-                0.0139210988
-            ],
-            [
-                "business",
-                0.0136984559
-            ],
-            [
-                "health",
-                0.0102124745
-            ],
-            [
-                "weather",
-                0.0053862086
-            ],
-            [
-                "sports",
-                0.0053853379
-            ],
-            [
-                "politics",
-                0.0053651296
-            ],
-            [
-                "science",
-                0.0051140329
-            ]
-        ],
-        "word_count": {
-            "key words": {
-                "raise": 1,
-                "war": 1,
-                "": 1
-            },
-            "continents": {
-                "Africa": 1,
-                "Europe": 1
-            },
-            "countries": {
-                "Algeria": 1,
-                "Angola": 1,
-                "Bulgaria": 1,
-                "Croatia": 1,
-                "Japan": 1,
-                "Qatar": 1,
-                "Spain": 1,
-                "Ukraine": 1,
-                "Uzbekistan": 1
-            }
-        },
-        "process_ID": "Process_6"
     }
 ]
