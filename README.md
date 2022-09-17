@@ -1,6 +1,6 @@
 # HackZürich 2022
 
-Repository for the HackZürich 2022 edition (September 17 - 19, 2022).
+Repository for the HackZürich 2022 edition (September 16 - 18, 2022).
 
 
 ## Authors
