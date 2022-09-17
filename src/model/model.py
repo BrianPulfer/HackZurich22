@@ -1,4 +1,5 @@
-from model.utils import NEWS_CLASSES
+from src.model.utils import NEWS_CLASSES
+
 from transformers import pipeline
 from happytransformer import HappyTextToText, TTSettings
 from transformers import FSMTForConditionalGeneration, FSMTTokenizer

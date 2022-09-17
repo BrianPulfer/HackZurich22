@@ -1,0 +1,187 @@
+[
+    {
+        "url": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-netherlands",
+        "resume": "The Netherlands is experiencing a moderate wind warning. The Netherlands en Espaa. The Netherlands en Espaa. The European Union has issued the following weather warnings. The National Weather Service has issued two of the above-the-air warnings. Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - Meteoalarm - The Netherlands has issued a yellow Wind Warning.",
+        "labels": [
+            [
+                "weather",
+                0.7671937346
+            ],
+            [
+                "disruption",
+                0.0707289502
+            ],
+            [
+                "world",
+                0.0509494841
+            ],
+            [
+                "technology",
+                0.0358602367
+            ],
+            [
+                "science",
+                0.0198382866
+            ],
+            [
+                "crisis",
+                0.0162636507
+            ],
+            [
+                "entertainment",
+                0.0122386636
+            ],
+            [
+                "business",
+                0.0113803037
+            ],
+            [
+                "health",
+                0.0073207747
+            ],
+            [
+                "politics",
+                0.0041707996
+            ],
+            [
+                "sports",
+                0.0040551042
+            ]
+        ],
+        "word_count": {
+            "key words": {
+                "war": 1,
+                "": 1
+            },
+            "continents": {
+                "Europe": 1
+            },
+            "countries": {
+                "Netherlands": 1
+            }
+        },
+        "process_ID": "Process_1"
+    },
+    {
+        "url": "https://caps.weathersa.co.za/Home/RssFeed",
+        "resume": "Disruptive rain is expected to result in localised flooding of susceptible settlements (formal/informal), roads, low-lying areas and bridges. Mudslides and rock falls are possible. Mudslides and rock falls are possible. Localised damage to mud-based and make-shift houses or structures is possible.",
+        "labels": [
+            [
+                "disruption",
+                0.584884882
+            ],
+            [
+                "weather",
+                0.3057267368
+            ],
+            [
+                "world",
+                0.030281838
+            ],
+            [
+                "crisis",
+                0.0277700294
+            ],
+            [
+                "health",
+                0.0146827772
+            ],
+            [
+                "science",
+                0.0096336482
+            ],
+            [
+                "entertainment",
+                0.0072580166
+            ],
+            [
+                "business",
+                0.0070849536
+            ],
+            [
+                "technology",
+                0.0063960478
+            ],
+            [
+                "sports",
+                0.0038341545
+            ],
+            [
+                "politics",
+                0.0024469194
+            ]
+        ],
+        "word_count": {
+            "key words": {
+                "flood": 1,
+                "": 1
+            },
+            "continents": {
+                "Africa": 1
+            },
+            "countries": {
+                "South Africa": 1
+            }
+        },
+        "process_ID": "Process_2"
+    },
+    {
+        "url": "https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml",
+        "resume": "Storm gusts of up to 70 km/h (20m / s, 38kn, Bft 8) must be expected near showers and exposed locations. East Frisian coast, Heligoland, mouth of the Elbe / Weser affected. Heavy storm gusts above 1000 m occur with speeds between 75 km/h (21m / h) and 95 km/h.",
+        "labels": [
+            [
+                "weather",
+                0.3891429305
+            ],
+            [
+                "disruption",
+                0.3102976978
+            ],
+            [
+                "world",
+                0.0617228299
+            ],
+            [
+                "health",
+                0.0528486371
+            ],
+            [
+                "crisis",
+                0.038278047
+            ],
+            [
+                "technology",
+                0.0382196009
+            ],
+            [
+                "entertainment",
+                0.0345207639
+            ],
+            [
+                "business",
+                0.0316143073
+            ],
+            [
+                "science",
+                0.0213424303
+            ],
+            [
+                "sports",
+                0.0133138364
+            ],
+            [
+                "politics",
+                0.0086989282
+            ]
+        ],
+        "word_count": {
+            "key words": {
+                "war": 1,
+                "": 1
+            },
+            "continents": {},
+            "countries": {}
+        },
+        "process_ID": "Process_3"
+    }
+]

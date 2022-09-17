@@ -6,7 +6,7 @@ import requests
 
 # Auxiliar functions
 
-from data_retriever.text_processing import remove_unwanted, filter_unwanted_stuff, dict2string
+from src.data_retriever.text_processing import remove_unwanted, filter_unwanted_stuff, dict2string
 
 STATUS_OK = 200
 
