@@ -69,7 +69,6 @@ class WorldMap extends Component {
     
     let markers = [];
     let line_coords = [];
-    //for (let i = 0; i < this.state.infos.length; i++) {
     let i = 0;
     for (var key in this.state.infos) {
       
