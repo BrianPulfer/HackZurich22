@@ -14,6 +14,7 @@ We fatch the news articles from trusted URLs. We use [Huggingface's](https://www
 ### Start webpage
 - To execute the server and interact with the map, execute in the web folder:
 ``` bash 
+  npm install
   npm start 
 ```
 The map is update it in real after we process a new url.
