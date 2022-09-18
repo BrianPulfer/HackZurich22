@@ -37,16 +37,6 @@ To get the url_id of a specific trust url, you can execute
   python DB_read_table.py --name_db Trust_sources
 ```
 
-## Data processing
-Example of how our system is able to collect and process information with the use of AI.
-
-### Initial data
-Fragment of the downloaded data before analyzing. (Original data came from: https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml)
-"""
-.... Gemeinde Wiendorf, Gemeinde Klein Belitz, Gemeinde Kassow, Gemeinde Wardow, Stadt Laage, Gemeinde Kuhs, Stadt Rostock, Gemeinde Zepelin, Gemeinde Ziesendorf, Gemeinde Kritzmow...\n. 2022-09-17T21:53:00Z\n. (Alert) Amtliche WARNUNG vor GEWITTER\n. 2022-09-17T21:52:00Z\n. 2022-09-17T21:52:00Z\n. text\n. Von Nordwesten ziehen Gewitter auf. Dabei gibt es Windböen mit Geschwindigkeiten bis 60 km/h (17m/s, 33kn, Bft 7). - Betroffene Gebiete: Gemeinde Westerstetten, Gemeinde Mühlhausen im Täle, Gemeinde Westerheim, Gemeinde Altheim (Alb), Gemeinde Altheim, Gemeinde K', 'uchen, Gemeinde Allmendingen, Gemeinde Weidenstetten, Gemeinde Bissingen an der Teck, Stadt Göppingen...\n. 2022-09-17T21:52:00Z\n. (Update) Amtliche WARNUNG vor WINDBÖEN\n. 2022-09-17T19:53:00Z\n. 2022-09-17T19:53:00Z\n. text\n. Es treten Windböen mit Geschwindigkeiten bis 60 km/h (17m/s, 33kn, Bft 7) aus nordwestlicher Richtung auf. In Schauernähe sowie in exponierten Lagen muss mit Sturmböen bis 70 km/h (20m/s, 38kn, Bft 8) gerechnet werden. - Betroffene Gebiete: Gemeinde Brinkum, Gemeinde Detern, Gemeinde Holtland, Gemeinde Hesel, Gemeinde Firrel, Gemeinde Filsum, Gemeinde Neukamperfehn, Gemeinde Moormerland, Stadt Leer (Os... 
-"""
-### Data processed and use in our app
-
 
 ## Authors
 [BrianPulfer](https://github.com/BrianPulfer) and [ipmach](https://github.com/ipmach).
