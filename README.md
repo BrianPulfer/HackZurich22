@@ -42,4 +42,4 @@ To get the url_id of a specific trust url, you can execute
 
 
 ## Authors
-[BrianPulfer](https://github.com/BrianPulfer) and [ipmach](https://github.com/ipmach).
+[BrianPulfer](https://github.com/BrianPulfer) and [ipmach](https://github.com/ipmach) (a.k.a **Two Men and a Hack**).
