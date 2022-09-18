@@ -9,6 +9,8 @@ Our **migros' monitor system** uses advanced Natural Language Processing (NLP) M
 
 We fatch the news articles from trusted URLs. We use [Huggingface's](https://www.huggingface.co) pre-trained models to translate, summarize and classify news articles. Only articles that are classified as a threat are displayed in our web  [React](https://www.reactjs.org) interface. The web interface shows a world map ([react-leaflet](https://react-leaflet.js.org/)) with annotations on suppliers which are at risk of some sort of shortage / raise in products price.
 
+![](diagram_code.png "Final application")
+
 ### Start webpage
 - To execute the server and interact with the map, execute in the web folder:
 ``` bash 
